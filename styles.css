@@ -862,7 +862,7 @@ h1 {
     
     .logo {
         width: 9%;
-        margin-left: 30px;
+        margin-left: 100px;
     }
 
     .logo img {
@@ -875,6 +875,7 @@ h1 {
         margin-left: 15px;
         position: absolute;
         margin-top: 120px;
+        background-color: white;
     
     }
     
@@ -1045,8 +1046,30 @@ h1 {
         position: relative;
         align-items: center;
         justify-content: space-between;
-        display: none;
     }
+
+          /* NAVBAR HEADER */
+    .navbar {
+        position: absolute;
+        top: -58px;
+    }
+
+    .categorias {
+        display: none;
+    } 
+
+    .navbar-toggle {
+        width: 20px;
+    }
+
+    .main-nav {
+        margin: 15px 0 0 0;
+        width: 150px;
+        height: 250px;
+        justify-content: center;
+        text-align: center;   
+    }
+
 
     .hr-abajo {
         display: none;
@@ -1076,7 +1099,7 @@ h1 {
     }
     
     .header-medio {
-        display: flex;
+        display: none;
         text-align: center;
         justify-content: center;
         font-size: 14px;
@@ -1089,6 +1112,7 @@ h1 {
         display: flex;
         width: 100px;
         height: 40px;
+        display: none;
     }
     
     .ofertas a:hover {
@@ -1130,37 +1154,7 @@ h1 {
         object-fit: cover;
          }
     
-    .sec-1 {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .sec-2 {
-       text-align: center;
-       justify-content: center;
-       align-items: center;
-    }
-    
-    .sec-3 {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .sec-4 {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .sec-5 {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .sec-6 {
+    .sec {
         text-align: center;
         justify-content: center;
         align-items: center;
