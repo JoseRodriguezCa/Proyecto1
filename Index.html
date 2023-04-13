@@ -71,6 +71,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24" class="icono-navbar"><path d="M16 2H8c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 2v2H8V4h8zm0 4v8H8V8h8zM8 20v-2h8v2H8z"></path></svg>
                             <span>Smartphones y Telefonia</span></li>
                         </a>
+                    </li>
                     <li>
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24" class="icono-navbar"><path d="M12 8c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3z"></path><path d="M20 6h-3.5l-1.4-2.1c-.4-.6-1-.9-1.7-.9h-2.9c-.6 0-1.3.3-1.6.9L7.5 6H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM4 19V8h4.5l2-3h2.9l2 3H20v11H4z"></path></svg>
@@ -213,7 +214,7 @@
                 <a href="#foto8"></a>
             </div>
         </div>
-        <h2>Seguro que te interesa</h2>
+        <h2 class="texto-2docarrusel">Seguro que te interesa</h2>
 
                 <!-- 2ER CARRUSEL -->
 
@@ -412,17 +413,234 @@
                 <h2>Los expertos en tecnología más comprometidos contigo</h2>
                 <p>Nuestros <a title="compromisos con nuestro cliente" href="https://www.pccomponentes.com/compromisos">compromisos</a> se centran en ser expertos en lo que vendemos y garantizar al cliente todo lo que necesita:</p>
                 <ul>
-                    <li><strong>Envíos gratuitos</strong> a partir de 50€ siempre en <strong>24 horas*</strong> (si excepcionalmente incumplimos la fecha de entrega, te devolvemos los gastos de envío).</li>
-                    <li><strong>Garantía</strong> con la mejor solución para ti en <strong>24h.</strong></li>
-                    <li><strong>Devoluciones gratuitas.</strong></li>
-                    <li><strong>Atención al cliente local y sin esperas.</strong></li>
-                    <li>Nos tomamos muy en serio las <strong>opiniones</strong> de nuestros clientes, y puedes verlas siempre en nuestros artículos</li>
+                    <li class="li"><strong>Envíos gratuitos</strong> a partir de 50€ siempre en <strong>24 horas*</strong> (si excepcionalmente incumplimos la fecha de entrega, te devolvemos los gastos de envío).</li>
+                    <li class="li"><strong>Garantía</strong> con la mejor solución para ti en <strong>24h.</strong></li>
+                    <li class="li"><strong>Devoluciones gratuitas.</strong></li>
+                    <li class="li"><strong>Atención al cliente local y sin esperas.</strong></li>
+                    <li class="li">Nos tomamos muy en serio las <strong>opiniones</strong> de nuestros clientes, y puedes verlas siempre en nuestros artículos</li>
                 </ul>
                 <p>Bienvenido a PcComponentes.</p>
             </span>
         </div>
     </main>
     <hr>
+    <footer>
+        <section class="footer-container">
+            <ARticle>
+                <h2>Por que comprar</h2>
+                <a href="#">Como comprar</a>
+                <a href="#">Formas de pago</a>
+                <a href="#">Gastos de envio</a>
+                <a href="#">Cupones descuento</a>
+                <a href="#">Preguntas frecuentes</a>
+            </ARticle>
+            <ARticle>
+                <h2>Quienes somos</h2>
+                <a href="#">Quienes somos</a>
+                <a href="#">Compromisos</a>
+                <a href="#">Nuestras tiendas</a>
+                <a href="#">Nuestras marcas</a>
+                <a href="#">Condiciones de compra</a>
+            </ARticle>
+            <ARticle>
+                <h2>Contactar</h2>
+                <a href="#">Centro de soporte</a>
+                <a href="#">Contacto</a>
+                <a href="#">Devoluciones y garantias</a>
+                <a href="#">Wiki PcComponentes</a>
+                <a href="#">Opina y gana</a>
+            </ARticle>
+            <ARticle>
+                <h2>Por que comprar</h2>
+                <a href="#">Como comprar</a>
+                <a href="#">Formas de pago</a>
+                <a href="#">Gastos de envio</a>
+                <a href="#">Cupones descuento</a>
+                <a href="#">Preguntas frecuentes</a>
+            </ARticle>
+            <ARticle>
+                <h2>Otros</h2>
+                <a href="#">Replay</a>
+                <a href="#">Black friday</a>
+                <a href="#">Cyber Monday</a>
+                <a href="#">PcDays</a>
+                <a href="#">Marketplace</a>
+            </ARticle>
+            <ARticle>
+                <h2>Comunidad</h2>
+                <a class="fa-brands fa-instagram" href="#">Instagram</a>
+                <a class="fa-brands fa-twitter" href="#">Twitter</a>
+                <a class="fa-brands fa-facebook" href="#">Facebook</a>
+                <a class="fa-brands fa-telegram" href="#">Telegram</a>
+            </ARticle>
+        </section>
+
+        <!-- NAVBAR1 -->
+
+        <nav class="navbar-movil">
+            <label class="navbar-toggle-movil"  id="js-navbar-toggle-movil" for="chkToggle-movil"></label>
+            <a href="#" class="fas fa-bars" id="boton-categorias-movil"><span>Por que comprar</span></a>
+            <input type="checkbox" id="chkToggle-movil">
+            <ul class="main-nav-movil" id="js-menu-movil">
+                <li>
+                    <a href="#">
+                        <span>Como comprar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Formas de pago</span></li>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Gastos de envio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Cupones de descuento</span>
+                    </a>
+
+                </li>
+            </ul>
+            <hr>
+        </nav>
+
+
+        <!-- NAVBAR2 -->
+
+<nav class="navbar-movil">
+    <label class="navbar-toggle-movil"  id="js-navbar-toggle-movil" for="chkToggle-movil2"></label>
+    <a href="#" class="fas fa-bars" id="boton-categorias-movil"><span>Quienes somos</span></a>
+    <input type="checkbox" id="chkToggle-movil2">
+    <ul class="main-nav-movil" id="js-menu-movil">
+        <li>
+            <a href="#">
+                <span>Quienes somos</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>compromisos</span></li>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>Nuestras tiendas</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>Nuestas marcas</span>
+            </a>
+
+        </li>
+    </ul>
+    <hr>
+</nav>
+
+
+            <!-- NAVBAR3 -->
+
+            <nav class="navbar-movil">
+                <label class="navbar-toggle-movil"  id="js-navbar-toggle-movil" for="chkToggle-movil3"></label>
+                <a href="#" class="fas fa-bars" id="boton-categorias-movil"><span>Contactar</span></a>
+                <input type="checkbox" id="chkToggle-movil3">
+                <ul class="main-nav-movil" id="js-menu-movil">
+                    <li>
+                        <a href="#">
+                            <span>Centro de soporte</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>contacto</span></li>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Devoluciones y garantias</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Wiki PcComponentes</span>
+                        </a>
+            
+                    </li>
+                </ul>
+                <hr>
+            </nav>
+
+            <!-- NAVBAR4 -->
+
+            <nav class="navbar-movil">
+                <label class="navbar-toggle-movil"  id="js-navbar-toggle-movil" for="chkToggle-movil4"></label>
+                <a href="#" class="fas fa-bars" id="boton-categorias-movil"><span>Otros</span></a>
+                <input type="checkbox" id="chkToggle-movil4">
+                <ul class="main-nav-movil" id="js-menu-movil">
+                    <li>
+                        <a href="#">
+                            <span>Replay</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Black Friday </span></li>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Cyber Monday</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>PcDays</span>
+                        </a>
+            
+                    </li>
+                </ul>
+                <hr>
+            </nav>
+
+
+            <!-- NAVBAR5 -->
+
+            <nav class="navbar-movil">
+                <label class="navbar-toggle-movil"  id="js-navbar-toggle-movil" for="chkToggle-movil5"></label>
+                <a href="#" class="fas fa-bars" id="boton-categorias-movil"><span>Comunidad</span></a>
+                <input type="checkbox" id="chkToggle-movil5">
+                <ul class="main-nav-movil" id="js-menu-movil">
+                    <li>
+                        <a href="#" class="fa-brands fa-instagram">
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    </li>
+                    <li>
+                        <a href="#" class="fa-brands fa-facebook">
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa-brands fa-telegram">
+                            <span>Telegram</span>
+                        </a>
+                        <li>
+                            <a href="#" class="fa-brands fa-twitter">
+                                <span>Twitter</span>
+                            </a>
+                            <li>
+                </ul>
+                <HR>
+            </nav>
+            <hr>
+        <article class="derechos">
+            <span>PC Componentes y Multimedia SLU CIF B73347494. AVDA Europa, Parcela 2-5 y 2-6. Polígono industrial Las Salinas, 30840, Alhama de Murcia, Murcia. ESPAÑA.</span>
+        </article>
+    </footer>
     
 </body>
 </html>
