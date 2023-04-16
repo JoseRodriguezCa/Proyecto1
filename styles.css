@@ -853,8 +853,10 @@ p {
     width: 95%;
     margin-left: 15px;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 125px;
     background-color: white;
+    height: 75px;
+    padding-top: 15px;
   }
 
   #buscador {
