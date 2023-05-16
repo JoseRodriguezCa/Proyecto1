@@ -146,31 +146,8 @@
         <hr class="hr-abajo">
     </header>
     <main>
-        <section class="filters">
-            <article>
-                <select name="sellers" id="sellers">
-                    <option value="">Marcas</option>
-                    <option value="pccomponentes">ASUS</option>
-                    <option value="hp">HP</option>
-                    <option value="lenovo">LENOVO</option>
-                    <option value="asus">ASUS</option>
-                </select>
-            </article>
-            <article class="price-container">
-                <label for="price-input"></label>
-                <input type="number" id="price-input" name="price-input"  step="0.01" placeholder="1">
-                <br>
-                <label for="price-filter"></label>
-                <input class="price-slider" type="range" id="price-filter" name="price-filter" value="1" min="1" max="1500">
-            </article>
-            <article class="btns-filters">
-                <button class="seacher" id="seacher">
-                    Buscar
-                </button>
-                <button class="cleaner" id="cleaner">
-                    limpiar filtros
-                </button>
-            </article>
+        <section class="filters" id="filters">
+
         </section>
 
         <!-- PRODUCTOS -->
